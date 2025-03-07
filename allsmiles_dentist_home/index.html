@@ -8,10 +8,106 @@
   </head>
   <body class="page">
     <h1 class="visually-hidden">AllSmiles Dentist Home</h1>
-    <header class="header"></header>
+    <header class="header">
+      <div class="header__extra">
+        <p class="header__work-shedule"></p>
+        <ul class="header__contacts">
+          <li class="header__contacts-item">
+            <a href="tel:" class="header__contacts-phone"></a>
+          </li>
+          <li class="header__contacts-item">
+            <a href="mailto:" class="header__contacts-email"></a>
+          </li>
+          <li class="header__contacts-item">
+            <address class="header__contacts-address"></address>
+          </li>
+        </ul>
+      </div>
+      <div class="header__body">
+        <a href="#" class="header__logo-link"
+          ><img src="" class="header__logo-image"
+        /></a>
+        <nav class="header__menu">
+          <ul class="header__menu-list">
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link is-current"></a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link"></a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link"></a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link"></a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link"></a>
+            </li>
+            <li class="header__menu-item">
+              <a href="#" class="header__menu-link"></a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__menu-extra">
+          <a href="#" class="header__menu-link"></a>
+          <button class="header__burger-button button" type="button"></button>
+        </div>
+      </div>
+    </header>
     <main>
-      <section class="intro"></section>
-      <section class="about"></section>
+      <section class="intro">
+        <!-- Тут слайдер услуг. Но я его пока делать не буду. Сверстаю как статичную секцию с ушками из стрело :) -->
+        <div class="intro__slider">
+          <div class="intro__frame">
+            <p class="intro__frame-suptitle suptitle"></p>
+            <h2 class="intro__frame-title h2-title"></h2>
+            <div class="intro__frame-buttons">
+              <a href="" class="intro__frame-link button"></a>
+              <a href="" class="intro__frame-link button inverse"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <!-- кнопку чата сделаем через псевдоэлементы -->
+        <h2 class="visually-hidden"></h2>
+        <div class="about__body container">
+          <article class="about__article">
+            <img src="" alt="" class="about__article-image" />
+            <h3 class="about__article-title h3-title"></h3>
+            <p class="about__article-lid"></p>
+            <a href="" class="about__article-link"></a>
+          </article>
+          <div class="about__advantages">
+            <img src="" alt="" class="about__advantages-image" />
+            <ul class="about__advantages-list">
+              <li class="about__advantages-item"></li>
+              <li class="about__advantages-item"></li>
+              <li class="about__advantages-item"></li>
+              <li class="about__advantages-item"></li>
+              <li class="about__advantages-item"></li>
+              <li class="about__advantages-item"></li>
+              <li class="about__advantages-item"></li>
+            </ul>
+          </div>
+          <div class="about__work-shedule">
+            <h3 class="about__work-shedule-title"></h3>
+            <ul class="about__work-shedule-list">
+              <li class="about__work-shedule-item"></li>
+              <li class="about__work-shedule-item"></li>
+              <li class="about__work-shedule-item"></li>
+              <li class="about__work-shedule-item"></li>
+              <li class="about__work-shedule-item"></li>
+              <li class="about__work-shedule-item"></li>
+              <li class="about__work-shedule-item"></li>
+            </ul>
+            <p class="about__call-us">
+              <a href="tel:" class="about__call-us-phone"></a>
+            </p>
+          </div>
+        </div>
+      </section>
       <section class="practice"></section>
       <section class="clients"></section>
       <section class="banner"></section>
